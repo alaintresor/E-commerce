@@ -1,0 +1,152 @@
+.body{
+    background-image: url("./images/ecommerce.jpg");
+    background-color: #cccccc;
+   }
+.header{
+    background-color: #339FFF;
+    color: white;
+    margin-right: -0.2cm;
+    margin-top: -10px;
+    margin-left: -0.2cm;
+}
+a{
+    text-decoration: none;
+}
+.footer{
+    position:fixed;
+    background-color: #000;
+    color: white;
+    height: 1cm;
+    bottom:0;
+    width: 100%;
+    margin-left: -10px;
+}
+#title{
+    font-size: 25px;
+    color: white;
+}
+.content{
+    margin-left: 1cm;
+    margin-right: 1cm;
+    color: #FFFF;
+}
+
+.product{
+    border: solid #989B9D 1px;
+    width: 5cm;
+    margin: 1.5cm; 
+    float:left;
+    background-color: whitesmoke;
+    opacity:0.8;
+    
+}
+.product img{
+    width: 4cm;
+    height: 3.3cm;
+}
+.card{
+    border: solid #8E9083  1px;
+    width: 7cm;
+    margin: 1.5cm; 
+    float: left;
+    color:  #282c34;
+    background-color: white;
+}
+#price{
+    text-align: end;
+    color:#000000;
+    margin-top: -0.8cm;
+    margin-right: 10px;
+}
+#name{
+    margin-left: 10px;
+    color: #339FFF;
+}
+#login{
+    margin-top: -2cm;
+    margin-right: 1cm;
+}
+#link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+td input{
+    width: 7cm;
+    height: 0.5cm;
+}
+.add,textarea{
+    width: 9cm;
+    height: 0.7cm;
+}
+form table{
+    padding: 1cm;
+    background-color:#282c34 ;
+    color: white;
+}
+#login-form{
+    margin-top: 15%;
+}
+#add-form{
+    margin-top: 5%;
+}
+caption{
+    font-size: 25px;
+}
+hr{
+    margin-bottom: -0.5cm;
+}
+#flex{
+    display: flex;
+}
+#buy{
+    margin-top: 2cm;
+    margin-left: 2cm;
+    color:#000000;
+}
+.webTitle{
+    color: #FFFFFF;
+}
+.table{
+    width: 1000px;
+    height: 500px;
+}
+.trTitle{
+    height: 50px;
+}
+.tr{
+    height: 30px;
+}
+#trLastOne{
+    background-color:#2bc04b;
+    color: #FFF;
+}
+.trButton{
+    background-color: #C0392B;
+    color: #FFF;
+}
+#changeTitle{
+    font-size: 30px;
+    color: #000000;
+}
+.banner{
+    height: 30px;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
